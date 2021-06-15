@@ -68,16 +68,13 @@ http.createServer(function (request, response) {
 
             // console.log(users);
         });
-
-
     }
 
     if(request.method==='GET') {
-        // let table = document.getElementById('table');
         fs.readFile('./data.xml', function(err,data) {
             var json = JSON.parse(parser.toJson(data, {reversible: true}));
-            var user = json["data"]["continent"];  
-            console.log();
+            var dataArr = json["data"]["continent"];
+       
         });
       
     }
