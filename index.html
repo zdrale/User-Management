@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+            <div class="form-wrapper">
+                <h1>Register</h1>
+                <form class="ui form" method="POST">
+                    <div class="field">
+                    <label>First Name</label>
+                    <input type="text" name="firstName" placeholder="First Name">
+                    </div>
+                    <div class="field">
+                    <label>Last Name</label>
+                    <input type="text" name="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="field">
+                        <label>Addres</label>
+                        <input type="text" name="Adress" placeholder="Addres">
+                    </div>
+                    <div class="field">
+                        <label>City</label>
+                        <input type="text" name="City" placeholder="City">
+                    </div>
+                    <div class="ui dropdown">
+                        <div class="ui form">
+                            <div class="field">
+                            <label>Country</label>
+                            <select class="ui search dropdown" name="Country">
+                                <option value="">Select Country</option>
+                                <option value="US">United States</option>
+                                <option value="CA">Canada</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="FR">France</option>
+                                <option value="GE">Germany</option>
+                                <option value="CI">China </option>
+                                <option value="JP">Japan</option>
+                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="email" name="Email" placeholder="joe@schmoe.com">
+                    </div>
+                    <div class="field">
+                        <label>Password</label>
+                        <input type="password" name="Password">
+                    </div>
+                    <button class="ui button" type="submit">Register</button>
+                </form>
+            </div>
+    
+    </div>  
+
+    <div class="table-wrapper">
+        <h2>List of Registered Users</h2>
+        <table id="table" class="ui celled table">
+            <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Adress</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+            <tbody>
+            <tr>
+                <td data-label="Full Name"></td>
+                <td data-label="Address"></td>
+                <td data-label="City"></td>
+                <td data-label="Country"></td>
+                <td data-label="Email"></td>
+                <td data-label="Action"><a href="#"><i class="trash alternate outline icon"></i></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

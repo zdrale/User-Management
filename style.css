@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+}
+
+
+.wrapper {
+    padding: 100px 750px;
+    background-image: url(./Images/pexels-fauxels-3182834.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.form-wrapper {
+    background-color: #FCF6F5FF;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+.table-wrapper {
+    padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #8ABAD3FF;
+}
+
+
+
+.table-wrapper h2{
+   text-align: center;
+}

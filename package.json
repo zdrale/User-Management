@@ -1,0 +1,24 @@
+{
+  "name": "develabs",
+  "version": "1.0.0",
+  "description": "Task for a job",
+  "main": "app.js",
+  "dependencies": {
+    "webpack": "^5.38.1",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "/"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Nikola Zdrale",
+  "license": "ISC"
+}
